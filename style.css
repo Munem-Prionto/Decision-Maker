@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+.vs {
+    padding: 0rem 1rem;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} 
+@media only screen and (max-width: 600px) {
+    .input-div {
+        flex-direction: column;
+    }
+}
